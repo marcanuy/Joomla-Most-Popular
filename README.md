@@ -24,7 +24,11 @@ Features
 Install / Configuration
 ---------------------------
 - Download package from Joomla Extension Directory **soon**
+
+
 or
+
+
 - Clone the repository
 - Install module and plugin through Joomla Extension Manager
 - Go to Extensions > Plug-in manager and search a plugin called "Content - Most Popular". Click it to enable.
