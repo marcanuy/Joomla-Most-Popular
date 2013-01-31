@@ -1,18 +1,18 @@
-Joomla Most Popular
-===================
+Joomla Most Popular by Date Range
+=================================
 
 ---------------------------
 Description
 ---------------------------
 
-This is an extension for the [Joomla CMS](http://www.joomla.org). It allows to display a list of all the most popular articles within a specific date range.
+This is an extension for the [Joomla CMS](http://www.joomla.org). It allows to display a list of the most popular articles within a specific date range.
 
 Features
 ---------------------------
--   Date range
+-   Date ranges
     -   Last day
-    -   Last week
-    -   Last month
+    -   Last 7 days
+    -   Last 30 days
     -   All time
 
 -   Show articles from all categories or selected categories only
@@ -23,7 +23,7 @@ Features
 
 Install / Configuration
 ---------------------------
-- Download package from Joomla Extension Directory **soon**
+- A packed stable version is available at [Project Homepage](http://www.marcanuy.com/en/projects/90-joomla-extensions/81-joomla-most-popular-content-by-date-range)
 
 
 or
@@ -31,6 +31,4 @@ or
 
 - Clone the repository
 - Install module and plugin through Joomla Extension Manager
-- Go to Extensions > Plug-in manager and search a plugin called "Content - Most Popular". Click it to enable.
-
-
+- Go to Extensions > Plug-in manager and search a plugin called "Content - Most Popular by Date Range". Click it to enable.
