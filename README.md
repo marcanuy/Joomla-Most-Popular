@@ -1,14 +1,26 @@
-mod_articles_mostpopular
-========================
+Joomla Most Popular
+===================
 
-Joomla Module - part of the "Most Popular" Extension.
+---------------------------
+Description
+---------------------------
 
-This module works togheter with [Joomla "Most Popular" Plugin](https://github.com/marcanuy/plg_content_mostpopular) .
-It displays a list of all the most popular articles within a specific date range:
-- Last day
-- Last week
-- Last month
-- All time
+This is an extension for the [Joomla CMS](http://www.joomla.org). It allows to display a list of all the most popular articles within a specific date range.
 
-Full package can be found in
+Features
+---------------------------
+- Date range
+-- Last day
+-- Last week
+-- Last month
+-- All time
+
+Install / Configuration
+---------------------------
+- Download package from Joomla Extension Directory **soon**
+or
+- Clone the repository
+- Install module and plugin through Joomla Extension Manager
+- Go to Extensions > Plug-in manager and search a plugin called "Content - Most Popular". Click it to enable.
+
 
