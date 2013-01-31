@@ -9,11 +9,17 @@ This is an extension for the [Joomla CMS](http://www.joomla.org). It allows to d
 
 Features
 ---------------------------
-- Date range
--- Last day
--- Last week
--- Last month
--- All time
+-   Date range
+    -   Last day
+    -   Last week
+    -   Last month
+    -   All time
+
+-   Show articles from all categories or selected categories only
+
+-   Include/exclude featured articles
+
+-   Filter articles by Joomla language
 
 Install / Configuration
 ---------------------------
