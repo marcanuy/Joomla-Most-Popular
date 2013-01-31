@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="content">
+	<name>plg_content_mostpopular</name>
+	<author>Marcelo Canina</author>
+	<creationDate>January 2013</creationDate>
+	<copyright>Copyright (C) 2005 - 2012 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>me@marcanuy.com</authorEmail>
+	<authorUrl>www.marcanuy.com</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_CONTENT_MOSTPOPULAR_XML_DESCRIPTION</description>
+
+	<files>
+		<filename plugin="mostpopular">mostpopular.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_content_mostpopular.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_content_mostpopular.sys.ini</language>
+	</languages>
+</extension>

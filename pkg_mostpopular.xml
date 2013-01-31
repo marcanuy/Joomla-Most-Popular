@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.0">
+  <name>Most Popular Package</name>
+  <author>Marcelo Canina</author>
+  <creationDate>January 2013</creationDate>
+  <packagename>mostpopular</packagename>
+  <version>1.0.0</version>
+  <url>http://www.marcanuy.com/</url>
+  <packager>Marcelo Canina</packager>
+  <packagerurl>http://www.marcanuy.com/</packagerurl>
+  <description>Package with Most Popular Articles extensions</description>
+  <update>http://www.marcanuy.com/projects/joomla/update</update>
+  <files folder="packages">
+    <file type="module" id="mod_articles_mostpopular" client="site">mod_articles_mostpopular.zip</file>
+    <file type="plugin" id="mostpopular" group="content">plg_content_mostpopular.zip</file>
+  </files>
+</extension>
