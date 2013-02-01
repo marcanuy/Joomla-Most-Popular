@@ -31,7 +31,7 @@ class plgContentMostpopular extends JPlugin
 		$this->_updateStats($article);
 	      }
 	    }
-	  return true;
+	  return '';
 	}
 
 
