@@ -56,7 +56,7 @@
 					type="text"
 					default="5"
 					label="MOD_ARTICLES_MOSTPOPULAR_FIELD_COUNT_LABEL"
-					description="MOD_ARTICLES_FIELD_MOSTPOPULAR_COUNT_DESC" />
+					description="MOD_ARTICLES_MOSTPOPULAR_FIELD_COUNT_DESC" />
 
 				<field
 					name="show_front"
