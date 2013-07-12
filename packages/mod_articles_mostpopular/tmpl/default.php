@@ -14,6 +14,26 @@ defined('_JEXEC') or die;
 	<li>
 		<a href="<?php echo $item->link; ?>">
 			<?php echo $item->title; ?></a>
+                <?php if($show_hits == "1") : ?>
+                <?php    $hits = 0; ?>
+                <?php    switch ($ordering_range)
+                           {
+                           case 1:
+                              $hits = $item->{'1_day_stats'};
+                              break;
+                           case 7:
+                              $hits = $item->{'7_day_stats'};
+                              break;
+                           case 30:
+                              $hits = $item->{'30_day_stats'};
+                              break;
+                           case 0:
+                           default:
+                              $hits = $item->all_time_stats;
+                           }
+                ?>
+                <?php echo " - ".$hits." ".JText::_("MOD_ARTICLES_MOSTPOPULAR_HITS"); ?>
+                <?php endif; ?>
 	</li>
 <?php endforeach; ?>
 </ul>

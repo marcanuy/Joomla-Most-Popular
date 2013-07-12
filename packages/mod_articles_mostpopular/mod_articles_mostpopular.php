@@ -14,5 +14,7 @@ require_once __DIR__ . '/helper.php';
 
 $list = modArticlesMostpopularHelper::getList($params);
 $moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));
+$show_hits = $params->get('show_hits', 0);
+$ordering_range = $params->get('ordering_range', 0);
 
 require JModuleHelper::getLayoutPath('mod_articles_mostpopular', $params->get('layout', 'default'));

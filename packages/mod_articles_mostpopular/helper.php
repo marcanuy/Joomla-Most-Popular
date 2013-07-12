@@ -29,7 +29,7 @@ abstract class modArticlesMostpopularHelper
 		
 		
     // Select the required fields from the table.
-    $query->select('a.id, a.title, a.alias, a.introtext, a.catid ');
+    $query->select('a.id, a.title, a.alias, a.introtext, a.catid, p.1_day_stats, p.7_day_stats, p.30_day_stats, p.all_time_stats');
     $query->from('#__content AS a');
     $query->join('INNER','#__mostpopular AS p ON a.id=p.content_id');
 
