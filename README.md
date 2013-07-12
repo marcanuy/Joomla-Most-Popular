@@ -32,3 +32,9 @@ or
 - Clone the repository
 - Install module and plugin through Joomla Extension Manager
 - Go to Extensions > Plug-in manager and search a plugin called "Content - Most Popular by Date Range". Click it to enable.
+
+Changelog
+--------------------------
+
+v1.1
+- Added an option to display the number of hits each articles has in module list
