@@ -55,7 +55,7 @@ class plgContentMostpopular extends JPlugin
 	    $days = 30;
 	    $count_30 = $this->_calculate_days_stats( $days, $raw_stats, $date );
 
-	    if ( isset( $row_stats ) && count( $raw_stats ) >= 30 ) {
+	    if ( isset( $raw_stats ) && count( $raw_stats ) >= 30 ) {
 	      array_shift( $raw_stats );
 	      $raw_stats[$date] = 1;
 	    } else {
