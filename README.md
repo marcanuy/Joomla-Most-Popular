@@ -1,6 +1,8 @@
 Joomla Most Popular by Date Range
 =================================
 
+*Note:* **This repository is not maintained anymore**
+
 ---------------------------
 Description
 ---------------------------
